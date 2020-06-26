@@ -1,18 +1,23 @@
 [
     {
         "name":"Over My Dead Body",
-        "description":"This is the Over My Dead Body project description"
+        "description":"A Node.js app that solves a problem for the dead",
+        "image":{
+            "src":"omdb-card-background.png"
+        } 
     },
     {
         "name":"Knight Hacks",
-        "description":"This is the Knight Hacks project description"
-    },
-    {
-        "name":"Project Daedalus",
-        "description":"This is the Project Daedalus project description"
+        "description":"The official Knight Hacks mobile app for Android",
+        "image":{
+            "src":"kh-card-background.png"
+        } 
     },
     {
         "name":"Wyld Things",
-        "description":"This is the Wyld Things project description"
+        "description":"Product pages built using the Wix Corvid development platform",
+        "image":{
+            "src":"wt-card-background.png"
+        } 
     }
 ]

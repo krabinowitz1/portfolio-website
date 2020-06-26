@@ -1,0 +1,11 @@
+.cardTitle {
+    color: black;
+    margin: 8px 0px 0px 32px
+}
+
+.cardSubtitle {
+    color: black;
+    margin: 8px 0px 0px 32px;
+    max-width: 375px;
+    font-size: 17px;
+}

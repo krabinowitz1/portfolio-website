@@ -9,13 +9,26 @@ const ProjectPage = () => {
                 nodes {
                     name
                     description
+                    image {
+                        src
+                    }
+                }
+            }
+
+            allImageSharp {
+                nodes {
+                    fixed {
+                        src
+                        originalName
+                    }
                 }
             }
         }
     `)
     return (
     <main>
-        <ProjectGrid projectList={projects.allProjectsJson.nodes}></ProjectGrid>
+        
+        <ProjectGrid imageList={projects.allImageSharp.nodes} projectList={projects.allProjectsJson.nodes}></ProjectGrid>
     </main>
     )
 }
