@@ -2,6 +2,7 @@ import React from "react"
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 import contentStyles from './project-component.module.css'
 
 const Project = ({imageSrc, title, description}) => (
@@ -20,6 +21,9 @@ const Project = ({imageSrc, title, description}) => (
                     </Card.Text>
                 </Col>
             </Row>
+            <Button className={contentStyles.cardButton}>
+                More Info
+            </Button>
         </Card.ImgOverlay>
     </React.Fragment>
 )

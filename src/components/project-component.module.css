@@ -1,6 +1,8 @@
 .cardTitle {
     color: black;
-    margin: 8px 0px 0px 32px
+    margin: 8px 0px 0px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .cardSubtitle {
@@ -8,4 +10,11 @@
     margin: 8px 0px 0px 32px;
     max-width: 375px;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardButton{
+    margin: 8px 0px 0px 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
